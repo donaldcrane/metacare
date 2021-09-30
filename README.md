@@ -15,7 +15,7 @@ A detailed documentation of the api can be found here: [API Documentation](https
 
 - Clone the project
 - cd into the project's folder and run npm install to install dependencies
-- Create a .env file and add PORT value, JWT_KEY, COOKIE_KEY, CLOUD_NAME, API_KEY, API_SECRET to it
+- Create a .env file and add PORT value, COOKIE_KEY to it
 - Run npm run dev to start the server
 
 # HTTP Requests

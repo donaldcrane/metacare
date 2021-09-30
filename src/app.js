@@ -19,7 +19,7 @@ app.use(cookieSession({
 app.use("/api/v1", router);
 
 app.get("/", (req, res) => {
-  res.send("Welcome to  Donald Metacare coding test app");
+  res.send("Welcome to  Donald Metacare coding test assessment app");
 });
 app.all("*", (req, res) => res
   .status(404)
