@@ -1,5 +1,4 @@
-[![NodeJS CI]()
-
+[![NodeJS CI](https://github.com/donaldcrane/metacare/actions/workflows/node.js.yml/badge.svg)](https://github.com/donaldcrane/metacare/actions/workflows/node.js.yml)
 # Metacare
 
 Metacare is a small set of rest API endpoints using NodeJS that can be used for listing
