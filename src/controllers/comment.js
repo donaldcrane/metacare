@@ -34,7 +34,7 @@ export default class CommentController {
         createdComment
       });
     } catch (error) {
-      return res.status(500).json({ status: 500, error: error.message });
+      return res.status(500).json({ status: 500, error: "Server error." });
     }
   }
 
@@ -52,7 +52,7 @@ export default class CommentController {
       });
       return res.status(200).json({ status: 200, message: "Successfully retrived all Comments", data: comments });
     } catch (error) {
-      return res.status(500).json({ status: 500, error: error.message });
+      return res.status(500).json({ status: 500, error: "Resource not found." });
     }
   }
 
